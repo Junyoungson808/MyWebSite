@@ -1,8 +1,12 @@
+html    {
+    background-color: black;
+}
+
 header, body, footer {
     background-color: rgb(190, 62, 62);
     font-family: monospace;
     font-size: small;
-    text-emphasis-color: red;
+    text-emphasis-color: blue
 }
 
 h1 {
