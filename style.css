@@ -1,0 +1,14 @@
+header, body, footer {
+    background-color: rgb(190, 62, 62);
+    font-family: monospace;
+    font-size: small;
+    text-emphasis-color: red;
+}
+
+h1 {
+    color: black;
+    background-color: beige;
+    margin: auto;
+    border: 3px
+    ;
+}
