@@ -9,3 +9,4 @@ if (doGundam === "yes") {
 else {
     console.log("ITS A TRAP")
  document.write(" GUNDAAAAAAM") }
+
