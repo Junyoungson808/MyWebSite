@@ -1,12 +1,12 @@
 html {
-    background-color: rgb(22, 80, 61);
+    background-color: #A8D5E2;
     margin: 0;
     padding: 0;
 }
 
 header {
-    color: black;
-    background-color: rgb(22, 43, 44);
+    color: #A8D5E2;
+    background-color: #506c64;
     list-style: none;
     font-size: x-large;
     height: 210px;
@@ -33,15 +33,15 @@ nav {
 }
 
 h1  {
-    color: blueviolet;
-    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    background-color: #aba9bf;
     border: 5px grey solid;
 }
 
 main {
     width: 1800px;
-    margin: auto;
-    background-color: rgb(86, 86, 129);
+    margin: 0px;
+    background-color: #506c64;
     color: rgb(199, 199, 185);
     font-size: x-large;
 }
@@ -54,21 +54,35 @@ main {
 }
 
 h2 {
-    color: blueviolet;
-    background-color: black;
+    color: whitesmoke;
+    background-color: #aba9bf;
 }
 
 .hlist {
-    color: blueviolet;
+    color: whitesmoke;
     list-style: none;
+    padding: 0;
+    margin: 0;
 
 }
 
 footer {
     color: black;
-    background-color: rgb(22, 43, 44);
+    background-color: #506c64;
     font-family: sans-serif;
     text-align: right;
     height: 50px;
     margin: auto;
+}
+
+#demo {
+    color: black;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}   
+
+#demo li {
+
+
 }

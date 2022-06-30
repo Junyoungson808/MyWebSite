@@ -1,78 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Gundam</title>
-    <link rel="stylesheet" href="style.css" /> 
-    <script src="app.js"></script>  
-</head>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
 
-<body>
-   
+  <body>
     <header>
-        <img src ="https://p-bandai.com/img/us/p/m/N2604206001001_001.jpg"
-        class="rx93"/>
+      <img
+        src="https://p-bandai.com/img/us/p/m/N2604206001001_001.jpg"
+        class="rx93"
+      />
 
-        <nav>
-            
-            <ul>
-                <li class="link"><a href="https://junyoungson808.github.io/reading-notes/">Link 1</a></li>
-                <li class="link"><a href="https://junyoungson808.github.io/reading-notes/">Link 2</a></li>
-                <li class="link"><a href="https://junyoungson808.github.io/reading-notes/">Link 3</a></li>
-            </ul>   
-                    
-        </nav>
-        
+      <nav>
+        <ul>
+          <li class="link">
+            <a href="https://junyoungson808.github.io/reading-notes/">Link 1</a>
+          </li>
+          <li class="link">
+            <a href="https://junyoungson808.github.io/reading-notes/">Link 2</a>
+          </li>
+          <li class="link">
+            <a href="https://junyoungson808.github.io/reading-notes/">Link 3</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-        <center>
-    <main>
-        
+    <center>
+      <main>
         <h1>Welcome to the Only Funz!</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum mattis pellentesque id nibh. Amet cursus sit amet dictum. Amet nisl suscipit adipiscing bibendum est. Urna et pharetra pharetra massa. Quam id leo in vitae turpis massa. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. Metus vulputate eu scelerisque felis imperdiet. Lacus vel facilisis volutpat est velit egestas dui id ornare. Nunc sed id semper risus in hendrerit gravida. Vitae turpis massa sed elementum tempus egestas sed sed risus.</p>
-
-            <button onclick="myFunction()">Button</button>
+        <script src="app.js"></script>
         
-                        <p id="demo"></p>
-                        <script>
-                        function myFunction() {
-                        let text;
-                        if (confirm("Press a button!") == true) {
-                            text = "You are a WINNER!!!";
-                        } else {
-                            text = "Oops";
-                        }
-                        document.getElementById("demo").innerHTML = text;
-                        }
-                        </script>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Condimentum mattis pellentesque id nibh. Amet cursus sit amet dictum.
+          Amet nisl suscipit adipiscing bibendum est. Urna et pharetra pharetra
+          massa. Quam id leo in vitae turpis massa. Malesuada bibendum arcu
+          vitae elementum curabitur vitae nunc sed velit. Metus vulputate eu
+          scelerisque felis imperdiet. Lacus vel facilisis volutpat est velit
+          egestas dui id ornare. Nunc sed id semper risus in hendrerit gravida.
+          Vitae turpis massa sed elementum tempus egestas sed sed risus.
+        </p>
 
-            <ul>
-                <li class="image"><img src ="https://p-bandai.com/img/us/p/m/N2604206001001_001.jpg" /></li>
-                <li class="image"><img src ="https://p-bandai.com/img/us/p/m/N2604206001001_001.jpg" /></li>
-                <li class="image"><img src ="https://p-bandai.com/img/us/p/m/N2604206001001_001.jpg" /></li>
-            </ul>
+        <button onclick="myFunction()">Button</button>
+        <button onclick="myShuffle()">I Choose...</button>
+        <button onclick="pokeLoop()">You</button>
 
-         <h2>Hobbies</h2>
-        
+        <ul id="demo"></ul>
 
-            <ul class="hlist">
-                <li class="hobby"><a href="https://www.pokemon.com/us/">Pokemon</a></li>
-                <li class="hobby"><a href="https://www.yugioh.com/">Yugioh</a></li>
-                <li class="hobby"><a href="https://en.wikipedia.org/wiki/Gundam">Gundam</a></li>
-                <li class="hobby"><a href="https://www.motorbiscuit.com/tofu-eurobeat-and-drifting-how-the-toyota-ae86-corolla-inspired-the-86/">Car</a></li>
-            </ul>
-        
-    </main>
-        </center>
+        <ul>
+          <li class="image">
+            <img src="https://p-bandai.com/img/us/p/m/N2604206001001_001.jpg" />
+          </li>
+          <li class="image">
+            <img src="https://p-bandai.com/img/us/p/m/N2604206001001_001.jpg" />
+          </li>
+          <li class="image">
+            <img src="https://p-bandai.com/img/us/p/m/N2604206001001_001.jpg" />
+          </li>
+        </ul>
+
+        <h2>Hobbies</h2>
+
+        <ul class="hlist">
+          <li class="hobby">
+            <a href="https://www.pokemon.com/us/">Pokemon</a>
+          </li>
+          <li class="hobby"><a href="https://www.yugioh.com/">Yugioh</a></li>
+          <li class="hobby">
+            <a href="https://en.wikipedia.org/wiki/Gundam">Gundam</a>
+          </li>
+          <li class="hobby">
+            <a
+              href="https://www.motorbiscuit.com/tofu-eurobeat-and-drifting-how-the-toyota-ae86-corolla-inspired-the-86/"
+              >Car</a
+            >
+          </li>
+        </ul>
+      </main>
+    </center>
 
     <footer>
-            <p class="footer">&copy; Junyoung Son</p>
-            <p class="footer">Contact us: 808-808-0000</p>
+      <p class="footer">&copy; Junyoung Son</p>
+      <p class="footer">Contact us: 808-808-0000</p>
     </footer>
-
-</body>
+  </body>
 </html>
