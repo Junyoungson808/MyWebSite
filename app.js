@@ -1,14 +1,19 @@
+function myMyName() {
+
 let myName = prompt("what is your name?")
 document.write("Nice to meet you, " + myName );
 
 let doGundam = prompt("Do you like Coding?")
-if (doGundam === "yes") {
-    document.write(" I do to! ");
+if (doGundam == "yes") {
+    alert("Yay")
+    document.write(", I do to! ");
 }
-
 else {
- document.write(" keep practicing! "); }
-
+    alert("Please try again!")
+    document.write(", wrong answer! "); 
+  }
+}
+    
 function myFunction() {
   let text;
   if (confirm("Press a button!") == true) {

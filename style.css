@@ -53,6 +53,12 @@ main {
     margin-right: 30px;
 }
 
+.aList {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
 h2 {
     color: whitesmoke;
     background-color: #aba9bf;
