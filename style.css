@@ -23,8 +23,10 @@ header {
 
 nav {
     color: black;
-    padding-top: 20pt;
-    padding-left: 10pt;
+    padding-top: 45pt;
+    margin: auto;
+    float: center;
+
 }
 
 .link {
@@ -56,6 +58,7 @@ main {
 .aList {
     margin: 0px;
     padding: 0px;
+    list-style: none;
 
 }
 
