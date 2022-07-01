@@ -1,4 +1,4 @@
-function myMyName() {
+function theName(){
 
 let myName = prompt("what is your name?")
 document.write("Nice to meet you, " + myName );
@@ -13,7 +13,17 @@ else {
     document.write(", wrong answer! "); 
   }
 }
+myName();
     
+function displayImg() {
+
+  let howManyImg = prompt("how many images do you want to see?")
+  for (let i = 1; i <= howManyImg; i++){
+      document.write("<p>Image</p>");
+  }
+}
+
+
 function myFunction() {
   let text;
   if (confirm("Press a button!") == true) {

@@ -1,18 +1,7 @@
-function dogdog() {
-    let puppy = promt("what is your favorite dog?")
+function displayImg() {
 
-    if (puppy = "dog";)
+    let starss = prompt("how many images do you want to see?")
+    for (let i = 1; i <= starss; i++){
+        document.write("<p>Image</p>")
+    }
 }
-
-let userName = promt("what is your name?");
-alert("welcome, " + userName);
-
-let text; 
-if (confirm("Do you like to code?") == true) {
-    text = "Well I do to! " + userName;
-}
-else {
-    text = "Please try again, " + userName;
-}
-alert(text + "Hello");
-dogdog();
