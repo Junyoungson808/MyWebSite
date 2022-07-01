@@ -1,4 +1,4 @@
-function theName(){
+function theName() {
 
 let myName = prompt("what is your name?")
 document.write("Nice to meet you, " + myName );
@@ -10,20 +10,29 @@ if (doGundam == "yes") {
 }
 else {
     alert("Please try again!")
-    document.write(", wrong answer! "); 
-  }
-}
-myName();
+    document.write(" Wrong Answer! "); }
     
+}
+
 function displayImg() {
 
-  let howManyImg = prompt("how many images do you want to see?")
-  for (let i = 1; i <= howManyImg; i++){
-      document.write("<p>Image</p>");
+  let starss = prompt("how many images do you want to see?")
+  for (let i = 1; i <= starss; i++){
+  var src = "https://p-bandai.com/img/us/p/m/N2604206001001_001.jpg";
+  showImages("https://p-bandai.com/img/us/p/m/N2604206001001_001.jpg", 200,200, "Image");
   }
 }
 
+function showImages(src, width, height, alt) {
+  var img = document.createElement("img");
+  img.src = src;
+  img.width = width;
+  img.height = height;
+  img.alt = alt;
+  document.body.appendChild(img);
 
+}
+    
 function myFunction() {
   let text;
   if (confirm("Press a button!") == true) {
